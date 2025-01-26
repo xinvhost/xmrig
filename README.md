@@ -1,18 +1,18 @@
 # XMRig
 
-##【以下是我改动的文档】
+### 【以下是我改动的文档】
 
 XMRig-C3pool猫池去捐赠抽水版本-可自己编译版
 
 
-##【相对于官方的改动如下】
+### 【相对于官方的改动如下】
 
 src/donate.h 文件的 kMinimumDonateLevel和kDefaultDonateLevel修改为0
 
 src/net/strategies/DonateStrategy.cpp 文件中 kDonateHost 和 kDonateHostTls 地址修改为127.0.0.1
 
 
-##【我编译好的版本】
+### 【我编译好的版本】
 
 * https://github.com/xinvhost/xmrig/releases/
 
@@ -71,7 +71,7 @@ make -j$(nproc)
 完成后可在xmrig/build/看到编译好的 xmrig 文件。
 
 
-##【编译参数】如果有特殊需求，可参考：https://xmrig.com/docs/miner/cmake-options
+### 【编译参数】如果有特殊需求，可参考：https://xmrig.com/docs/miner/cmake-options
 
 
 
